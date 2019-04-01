@@ -1,0 +1,12 @@
+[server]
+    host = ""
+    port = "9000"
+    development = true
+
+[https]
+    enabled = false
+    cert_file = "./server.cert"
+    key_file = "./server.key"
+
+[views]
+    path = "./resources/views"
